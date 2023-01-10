@@ -26,7 +26,6 @@ $(document).ready(function () {
         if(value==true)
         {
           var output = JSON.parse(response);
-          alert('data saved');
           displaytable();
         }
         else{
